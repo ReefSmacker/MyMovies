@@ -42,8 +42,6 @@ namespace MyMovies
                     txtPassword.Text                = xmlreader.GetValueAsString("MyMovies", "txtPassword", string.Empty);
                     txtPINCode.Text                 = xmlreader.GetValueAsString("MyMovies", "txtPINCode", "4321");
                     chkEnableRemoteWakeup.Checked   = xmlreader.GetValueAsBool("MyMovies", "chkRemoteWakeup", false);
-                    numLastAdded.Value              = xmlreader.GetValueAsInt("MyMovies", "numLastAdded", 50);
-                    numLastPlayed.Value             = xmlreader.GetValueAsInt("MyMovies", "numLastPlayed", 50);
 
                     string xml = xmlreader.GetValueAsString("MyMovies", "xmlPathReplacement", string.Empty);
                     pathReplacements = new DriveReplacements(xml);
@@ -168,8 +166,6 @@ namespace MyMovies
                     xmlwriter.SetValue("MyMovies", "txtUserName",           txtUserName.Text);
                     xmlwriter.SetValue("MyMovies", "txtPassword",           txtPassword.Text);
                     xmlwriter.SetValue("MyMovies", "txtPINCode",            txtPINCode.Text);
-                    xmlwriter.SetValue("MyMovies", "numLastAdded",          numLastAdded.Value);
-                    xmlwriter.SetValue("MyMovies", "numLastPlayed",         numLastPlayed.Value);
                     xmlwriter.SetValue("MyMovies", "wakeupRetries",         numRetries.Value);
                     xmlwriter.SetValue("MyMovies", "wakeupRetryTimeout",    numRetryTimeout.Value);
                     xmlwriter.SetValue("MyMovies", "maximumViewableRating", numMaxRating.Value);

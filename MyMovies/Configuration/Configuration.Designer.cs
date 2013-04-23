@@ -29,21 +29,17 @@ namespace MyMovies
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Configuration));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabProgramData = new System.Windows.Forms.TabPage();
-            this.numLastPlayed = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
-            this.numLastAdded = new System.Windows.Forms.NumericUpDown();
-            this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtProgramDataPath = new System.Windows.Forms.TextBox();
@@ -93,17 +89,15 @@ namespace MyMovies
             this.label15 = new System.Windows.Forms.Label();
             this.numMaxRating = new System.Windows.Forms.NumericUpDown();
             this.label14 = new System.Windows.Forms.Label();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tabUsers = new System.Windows.Forms.TabPage();
-            this.label17 = new System.Windows.Forms.Label();
+            this.txtUser = new System.Windows.Forms.TextBox();
+            this.btnAddUser = new System.Windows.Forms.Button();
             this.gridUsers = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnAddUser = new System.Windows.Forms.Button();
-            this.txtUser = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.tabControl.SuspendLayout();
             this.tabProgramData.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numLastPlayed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLastAdded)).BeginInit();
             this.tabOnline.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDriveReplacements)).BeginInit();
             this.tabSqlConnection.SuspendLayout();
@@ -164,10 +158,6 @@ namespace MyMovies
             // 
             // tabProgramData
             // 
-            this.tabProgramData.Controls.Add(this.numLastPlayed);
-            this.tabProgramData.Controls.Add(this.label11);
-            this.tabProgramData.Controls.Add(this.numLastAdded);
-            this.tabProgramData.Controls.Add(this.label9);
             this.tabProgramData.Controls.Add(this.textBox1);
             this.tabProgramData.Controls.Add(this.label1);
             this.tabProgramData.Controls.Add(this.txtProgramDataPath);
@@ -178,60 +168,6 @@ namespace MyMovies
             this.tabProgramData.TabIndex = 0;
             this.tabProgramData.Text = "Program Data";
             this.tabProgramData.UseVisualStyleBackColor = true;
-            // 
-            // numLastPlayed
-            // 
-            this.numLastPlayed.Location = new System.Drawing.Point(176, 161);
-            this.numLastPlayed.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.numLastPlayed.Name = "numLastPlayed";
-            this.numLastPlayed.Size = new System.Drawing.Size(41, 20);
-            this.numLastPlayed.TabIndex = 3;
-            this.numLastPlayed.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numLastPlayed.Value = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 164);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(153, 13);
-            this.label11.TabIndex = 30;
-            this.label11.Text = "Number of Last Played movies:";
-            // 
-            // numLastAdded
-            // 
-            this.numLastAdded.Location = new System.Drawing.Point(176, 135);
-            this.numLastAdded.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.numLastAdded.Name = "numLastAdded";
-            this.numLastAdded.Size = new System.Drawing.Size(41, 20);
-            this.numLastAdded.TabIndex = 2;
-            this.numLastAdded.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.numLastAdded.Value = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(14, 138);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(152, 13);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Number of Last Added movies:";
             // 
             // textBox1
             // 
@@ -309,38 +245,38 @@ namespace MyMovies
             // gridDriveReplacements
             // 
             this.gridDriveReplacements.AllowUserToAddRows = false;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridDriveReplacements.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridDriveReplacements.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.gridDriveReplacements.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridDriveReplacements.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.txtGridDriveLetter,
             this.txtGridReplacement});
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridDriveReplacements.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridDriveReplacements.DefaultCellStyle = dataGridViewCellStyle2;
             this.gridDriveReplacements.Location = new System.Drawing.Point(17, 166);
             this.gridDriveReplacements.MultiSelect = false;
             this.gridDriveReplacements.Name = "gridDriveReplacements";
             this.gridDriveReplacements.ReadOnly = true;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridDriveReplacements.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridDriveReplacements.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.gridDriveReplacements.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.gridDriveReplacements.Size = new System.Drawing.Size(478, 128);
             this.gridDriveReplacements.TabIndex = 5;
@@ -876,49 +812,59 @@ namespace MyMovies
             this.tabUsers.Text = "Users";
             this.tabUsers.UseVisualStyleBackColor = true;
             // 
-            // label17
+            // txtUser
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(16, 32);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(110, 13);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Enter the users name:";
+            this.txtUser.Location = new System.Drawing.Point(132, 32);
+            this.txtUser.Name = "txtUser";
+            this.txtUser.Size = new System.Drawing.Size(280, 20);
+            this.txtUser.TabIndex = 8;
+            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
+            // 
+            // btnAddUser
+            // 
+            this.btnAddUser.Enabled = false;
+            this.btnAddUser.Location = new System.Drawing.Point(418, 32);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.Size = new System.Drawing.Size(75, 23);
+            this.btnAddUser.TabIndex = 7;
+            this.btnAddUser.Text = "Add";
+            this.btnAddUser.UseVisualStyleBackColor = true;
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
             // gridUsers
             // 
             this.gridUsers.AllowUserToAddRows = false;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridUsers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridUsers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.gridUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridUsers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.gridUsers.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.gridUsers.DefaultCellStyle = dataGridViewCellStyle5;
             this.gridUsers.Location = new System.Drawing.Point(19, 93);
             this.gridUsers.MultiSelect = false;
             this.gridUsers.Name = "gridUsers";
             this.gridUsers.ReadOnly = true;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridUsers.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.gridUsers.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.gridUsers.Size = new System.Drawing.Size(474, 228);
             this.gridUsers.TabIndex = 6;
@@ -933,24 +879,14 @@ namespace MyMovies
             this.dataGridViewTextBoxColumn1.ToolTipText = "Add users to allow individual save settings for last played and resume times";
             this.dataGridViewTextBoxColumn1.Width = 230;
             // 
-            // btnAddUser
+            // label17
             // 
-            this.btnAddUser.Enabled = false;
-            this.btnAddUser.Location = new System.Drawing.Point(418, 32);
-            this.btnAddUser.Name = "btnAddUser";
-            this.btnAddUser.Size = new System.Drawing.Size(75, 23);
-            this.btnAddUser.TabIndex = 7;
-            this.btnAddUser.Text = "Add";
-            this.btnAddUser.UseVisualStyleBackColor = true;
-            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
-            // 
-            // txtUser
-            // 
-            this.txtUser.Location = new System.Drawing.Point(132, 32);
-            this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(280, 20);
-            this.txtUser.TabIndex = 8;
-            this.txtUser.TextChanged += new System.EventHandler(this.txtUser_TextChanged);
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(16, 32);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(110, 13);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Enter the users name:";
             // 
             // Configuration
             // 
@@ -970,8 +906,6 @@ namespace MyMovies
             this.tabControl.ResumeLayout(false);
             this.tabProgramData.ResumeLayout(false);
             this.tabProgramData.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numLastPlayed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numLastAdded)).EndInit();
             this.tabOnline.ResumeLayout(false);
             this.tabOnline.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridDriveReplacements)).EndInit();
@@ -1035,8 +969,6 @@ namespace MyMovies
         private System.Windows.Forms.NumericUpDown numUDIP2;
         private System.Windows.Forms.NumericUpDown numUDIP1;
         private System.Windows.Forms.TabPage tabProgramData;
-        private System.Windows.Forms.NumericUpDown numLastAdded;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtProgramDataPath;
@@ -1048,8 +980,6 @@ namespace MyMovies
         private System.Windows.Forms.NumericUpDown numRetries;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown numRetryTimeout;
-        private System.Windows.Forms.NumericUpDown numLastPlayed;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtPath;

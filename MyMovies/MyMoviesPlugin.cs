@@ -103,8 +103,6 @@ namespace MyMovies
         Sorting.Options         _currentSorting     = MyMovies.Sorting.Options.Name;
         LayoutOptions           _currentLayout      = LayoutOptions.List;
         bool                    _sortAscending      = false;
-        int                     _numLastAdded       = 50;
-        int                     _numLastPlayed      = 50;
         int                     _selectedUser       = 0;
         Users                   _availableUsers;
         int                     _maxViewableRating  = 4;        // What the user will actually see.
@@ -579,8 +577,6 @@ namespace MyMovies
                     _chkRemoteWakeup    = xmlreader.GetValueAsBool("MyMovies", "chkRemoteWakeup", false);
                     _macAddress         = MacAddress.Parse(xmlreader.GetValueAsString("MyMovies", "MACAddress", "00-00-00-00-00-00"));
                     _ipAddress          = IPAddress.Parse(xmlreader.GetValueAsString("MyMovies", "IPAddress", "0.0.0.0"));
-                    _numLastAdded       = xmlreader.GetValueAsInt("MyMovies", "numLastAdded", 50);
-                    _numLastPlayed      = xmlreader.GetValueAsInt("MyMovies", "numLastPlayed", 50);
                     _wakeupRetries      = xmlreader.GetValueAsInt("MyMovies", "wakeupRetries", 3);
                     _wakeupRetryTimeout = xmlreader.GetValueAsInt("MyMovies", "wakeupRetryTimeout", 3000);
                     _maxConfiguredRating= xmlreader.GetValueAsInt("MyMovies", "maximumViewableRating", 4);
