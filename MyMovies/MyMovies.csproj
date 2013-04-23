@@ -110,26 +110,6 @@
     <Compile Include="Users.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="skin\DefaultWide\MyMovies.xml" />
-    <Content Include="skin\DefaultWide\MyMoviesActors.xml" />
-    <Content Include="skin\DefaultWide\MyMoviesDetails.xml" />
-    <Content Include="skin\DefaultWide\Media\1.33-1.png" />
-    <Content Include="skin\DefaultWide\Media\1.66-1.png" />
-    <Content Include="skin\DefaultWide\Media\1.78-1.png" />
-    <Content Include="skin\DefaultWide\Media\1.85-1.png" />
-    <Content Include="skin\DefaultWide\Media\2.20-1.png" />
-    <Content Include="skin\DefaultWide\Media\2.35-1.png" />
-    <Content Include="skin\DefaultWide\Media\2.40-1.png" />
-    <Content Include="skin\Default\Media\1.33-1.png" />
-    <Content Include="skin\Default\Media\1.66-1.png" />
-    <Content Include="skin\Default\Media\1.78-1.png" />
-    <Content Include="skin\Default\Media\1.85-1.png" />
-    <Content Include="skin\Default\Media\2.20-1.png" />
-    <Content Include="skin\Default\Media\2.35-1.png" />
-    <Content Include="skin\Default\Media\2.40-1.png" />
-    <Content Include="skin\Default\MyMovies.xml" />
-    <Content Include="skin\Default\MyMoviesActors.xml" />
-    <Content Include="skin\Default\MyMoviesDetails.xml" />
     <Content Include="skin\Titan\DialogCheckedList.xml" />
     <Content Include="skin\Titan\Media\certification\AU-G.png" />
     <Content Include="skin\Titan\Media\certification\AU-M.png" />
