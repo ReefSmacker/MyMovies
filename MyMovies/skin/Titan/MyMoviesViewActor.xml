@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+<controls>
+	<control Style="smallTitle">
+		<description>Selected item Label</description>
+		<type>fadelabel</type>
+		<id>1</id>
+		<posX>510</posX>
+		<posY>1015</posY>
+		<label>#selecteditem</label>
+		<visible>Control.IsVisible(50)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+	
+	<!--            :: LISTVIEW ::            -->
+	
+	<control>
+		<description>Poster shadow</description>
+		<type>image</type>
+		<id>1</id>
+		<posX>105</posX>
+		<posY>347</posY>
+		<width>429</width>
+		<height>613</height>
+		<texture>list_poster_shadow.png</texture>
+		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+	
+	<control>
+		<description>Default Cover Art</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>123</posX>
+		<posY>360</posY>
+		<width>379</width>
+		<height>563</height>
+		<texture>defaultVideoBig.png</texture>
+		<visible>[facadeview.list|facadeview.playlist] + Control.IsVisible(50) + !Control.HasThumb(60) + !string.contains(#selecteditem, ..)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
+	<control>
+		<description>Folder Back Cover Art</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>123</posX>
+		<posY>360</posY>
+		<width>379</width>
+		<height>563</height>
+		<texture>folderBackVideo.png</texture>
+		<visible>[facadeview.list|facadeview.playlist] + Control.IsVisible(50) + string.contains(#selecteditem, ..)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
+	<control>
+		<description>Cover Art</description>
+		<type>image</type>
+		<id>60</id>
+		<posX>123</posX>
+		<posY>360</posY>
+		<width>379</width>
+		<height>563</height>
+		<texture>#selectedthumb</texture>
+		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+    
+    
+	<!--            :: INFO LABELS ::            -->
+	
+	<control Style="InfoLabel">
+		<description>Name</description>
+		<type>label</type>
+		<id>0</id>
+		<posX>565</posX>
+		<posY>387</posY>
+		<label>Name</label>
+		<visible>[facadeview.list|facadeview.playlist] + Control.IsVisible(50) + string.equals(#hideinfo, False)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
+	<control Style="InfoValueSmall">
+		<description>Name Value</description>
+		<type>label</type>
+		<id>0</id>
+		<posX>798</posX>
+		<posY>387</posY>
+		<label>#actor</label>
+		<visible>[facadeview.list|facadeview.playlist] + Control.IsVisible(50) + string.equals(#hideinfo, False)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+  </control>
+
+  <control Style="textBox">
+		<description>Summary (list)</description>
+		<type>textboxscrollup</type>
+		<id>1025</id>
+		<posX>565</posX>
+		<posY>442</posY>
+		<height>474</height>
+		<label>#biography</label>
+		<seperator>---------------------------------------------------------------------------------------------------------</seperator>
+		<onleft>1026</onleft>
+		<onright>1026</onright>
+		<onup>1026</onup>
+		<ondown>1026</ondown>
+		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+	       
+</controls>
+</window>

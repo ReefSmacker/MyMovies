@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<window>
+  <id>75363</id>
+  <defaultcontrol>10</defaultcontrol>
+  <define>#button.width:250</define>
+  <allowoverlay>no</allowoverlay>
+
+  <controls>
+    <control>
+      <description>group element</description>
+      <type>group</type>
+      <dimColor>ffffffff</dimColor>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="0">WindowClose</animation>
+      <animation effect="slide" start="0,200" end="0,0" tween="quadratic" easing="in" time="150" delay="0">WindowOpen</animation>
+
+      <control>
+        <id>0</id>
+        <type>image</type>
+        <posX>561</posX>
+        <posY>295</posY>
+        <width>835</width>
+        <height>679</height>
+        <texture>context_background.png</texture>
+      </control>
+
+      <control>
+      <id>1</id>
+      <description>Heading text label</description>
+      <type>label</type>
+      <posX>680</posX>
+      <posY>386</posY>
+      <width>580</width>
+      <font>fontB16</font>
+      <align>center</align>
+      <textcolor>ff393939</textcolor>
+      <label>181</label>
+      </control>
+
+      <control>
+        <type>group</type>
+        <layout>StackLayout</layout>
+        <description>group element</description>
+        <posX>650</posX>
+        <posY>425</posY>
+        <control>
+          <description>OK</description>
+          <type>button</type>
+          <id>2</id>
+          <width>#button.width</width>
+          <label>OK</label>
+          <onup>0</onup>
+          <ondown>3</ondown>
+          <onright>10</onright>
+        </control>
+
+        <control>
+          <description>Select all</description>
+          <type>button</type>
+          <id>3</id>
+          <width>#button.width</width>
+          <label>188</label>
+          <onup>2</onup>
+          <ondown>4</ondown>
+          <onright>10</onright>
+        </control>
+
+        <control>
+          <description>Select None</description>
+          <type>button</type>
+          <id>4</id>
+          <width>#button.width</width>
+          <label>1448</label>
+          <onup>3</onup>
+          <ondown>5</ondown>
+          <onright>10</onright>
+        </control>
+
+        <control>
+          <description>Cancel</description>
+          <type>button</type>
+          <id>5</id>
+          <width>#button.width</width>
+          <label>Cancel</label>
+          <onup>4</onup>
+          <ondown>99</ondown>
+          <onright>10</onright>
+        </control>
+
+      </control>
+
+      <control>
+        <description>checked listcontrol</description>
+        <type>listcontrol</type>
+        <id>10</id>
+        <posX>910</posX>
+        <posY>425</posY>
+        <height>500</height>
+        <width>300</width>
+        <textXOff>60</textXOff>
+        <textYOff>5</textYOff>
+        <spinPosX>1200</spinPosX>
+        <spinPosY>840</spinPosY>
+        <itemWidth>26</itemWidth>
+        <itemHeight>30</itemHeight>
+        <spaceBetweenItems>2</spaceBetweenItems>
+        <textureHeight>56</textureHeight>
+        <keepaspectratio>no</keepaspectratio>
+        <font2>font10</font2>
+        <font3>font10</font3>
+        <onleft>2</onleft>
+        <onright>10</onright>
+        <onup>10</onup>
+        <ondown>10</ondown>
+
+        <textcolor>FFFFFFFF</textcolor>                   <!--Colour of text when highlighted-->
+        <textcolor2>FFFFFFFF</textcolor2>
+        <textcolorNoFocus>00000000</textcolorNoFocus>     <!--Does not appear to be able to be set black-->
+        <textcolorNoFocus2>00000000</textcolorNoFocus2>
+        <selectedColor>00000000</selectedColor>           <!--Color when ListItem "Selected" property is true-->
+        <textureFocus>context_item_selected.png</textureFocus>
+        <textureNoFocus>-</textureNoFocus>
+
+        <PinIconXOff>0</PinIconXOff>
+      </control>
+    </control>
+  </controls>
+</window>

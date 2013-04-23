@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0</Version>
+  <Groups>
+    <Items>
+      <GroupItem Name="Default">
+        <ParentGroup />
+        <DisplayName>Skin</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Skin data</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\MyMovies.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{06092aea-879a-400e-a865-36fd9cb6aa9f}-MyMovies.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\MyMovies.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\MyMoviesActors.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2961e6cf-71cd-4220-8099-930d4027e704}-MyMoviesActors.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\MyMoviesActors.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\MyMoviesDetails.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4f01345b-f092-4307-b325-171083a47fe0}-MyMoviesDetails.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\MyMoviesDetails.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\1.33-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b69cf965-68ae-4341-927f-41b814f84d04}-1.33-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\1.33-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\1.66-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{76c8c7ae-620b-458a-9247-b101e5e91280}-1.66-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\1.66-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\1.78-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b573ad62-5fa8-48a1-a2a0-c3a642a2b510}-1.78-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\1.78-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\1.85-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{313b83b0-930e-441f-83e6-7f0af0ace207}-1.85-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\1.85-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\2.20-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{70893b14-76ca-4bb2-a035-79ef3857cdff}-2.20-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\2.20-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\2.35-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0d956b8b-03f5-4219-901d-a731d33f2ec3}-2.35-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\2.35-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3wide\Media\2.40-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9975e7dc-3949-4a02-8086-1349913b65e1}-2.40-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3wide\Media\2.40-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\MyMovies.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{61e2188c-2ca2-4ad0-ac1b-b577af1e836e}-MyMovies.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\MyMovies.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\MyMoviesActors.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{45fdffaf-2c1e-43f3-ba1d-6cfd68f81533}-MyMoviesActors.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\MyMoviesActors.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\MyMoviesDetails.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8e68594c-9ea2-4da9-b1b1-c259bb9f102b}-MyMoviesDetails.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\MyMoviesDetails.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\1.33-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7c0722e8-e69a-4895-83d8-97067504da98}-1.33-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\1.33-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\1.66-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a900aff2-db8d-4b5f-8606-131467b8c49c}-1.66-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\1.66-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\1.78-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0b017772-4b8a-42bb-9553-283ba25a6a2e}-1.78-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\1.78-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\1.85-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4c5f759e-a7e2-4cc2-a970-f4c258b34f58}-1.85-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\1.85-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\2.20-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{63f8dac0-10d1-4c6c-9d18-9879964b87fe}-2.20-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\2.20-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\2.35-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e50885c0-02fd-45b9-8a17-dc6a001daddf}-2.35-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\2.35-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Blue3\Media\2.40-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fdf475b5-a1c2-450b-a3cc-453cb592be74}-2.40-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Blue3\Media\2.40-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\MyMovies.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{949fa203-31db-4df0-a757-09e2f441bb08}-MyMovies.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\MyMovies.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\MyMoviesActors.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{deda5a23-f125-46cf-835d-3ea7e7e3dfd3}-MyMoviesActors.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\MyMoviesActors.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\MyMoviesHiddenMenu.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{58489d93-513f-42db-9b87-f380de244c14}-MyMoviesHiddenMenu.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\MyMoviesHiddenMenu.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\hover_my movies.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{21393080-50f5-4982-9505-c15c1b25678b}-hover_my movies.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\hover_my movies.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\MyMovies.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{575e82de-0147-4898-9f05-d90386595139}-MyMovies.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\MyMovies.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\MyMoviesActors.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{24493d18-39c7-400f-809f-862f49492987}-MyMoviesActors.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\MyMoviesActors.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\MyMoviesDetails.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e9a6bb28-7d5f-45c2-8cc0-00a70a15c0fe}-MyMoviesDetails.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\MyMoviesDetails.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\1.33-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1e3e3867-b715-470a-829b-a5310c243b9f}-1.33-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\1.33-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\1.66-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{da3dd02e-f6ea-47d5-8665-55f1d4eb7c0c}-1.66-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\1.66-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\1.78-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{169a8857-25cf-4f68-9528-568b0be9df65}-1.78-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\1.78-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\1.85-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9f246f4d-886b-449b-9315-f2b981f0ae64}-1.85-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\1.85-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\2.20-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5c75d88a-c5a0-495a-be0b-0dc33aae008b}-2.20-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\2.20-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\2.35-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8fcb5975-1373-41a1-bb54-9010682cae30}-2.35-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\2.35-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\2.40-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6dd6b2e7-279f-45c4-9785-10fe4ce4b817}-2.40-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\2.40-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\DefaultWide\Media\Thumbs.db</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3b66be8c-9180-4ac3-8f92-b2352afb285d}-Thumbs.db</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\Thumbs.db</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\1.33-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7e08c2d0-a40a-46a8-9f29-87f92156a35a}-1.33-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\1.33-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\1.66-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f96b89c6-9406-4605-af61-b6a14b33bc9e}-1.66-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\1.66-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\1.78-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e0718be2-759a-4cbf-a829-2115e65b39be}-1.78-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\1.78-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\1.85-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{351b4e3b-fa47-4d1e-a32f-91fb53053654}-1.85-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\1.85-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\2.20-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b47ef197-1a3a-4c96-a59f-abe56c5863f8}-2.20-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\2.20-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\2.35-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{dca0e830-206e-40c3-a8b7-5de1e37c9da1}-2.35-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\2.35-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\2.40-1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5976ed7c-5b70-446f-b386-e530be5d08d3}-2.40-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\2.40-1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Default\Thumbs.db</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{97374ad2-1b1e-4e2f-acaf-ac03afb717b3}-Thumbs.db</ZipFileName>
+              <DestinationFilename>%Skin%\Default\Thumbs.db</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\MyMoviesViewActor.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c55069f3-f30c-4833-b1df-95ef20244f7f}-MyMoviesViewActor.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\MyMoviesViewActor.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\DialogCheckedList.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{678eb090-0c72-44fa-a4ad-d1f8d5422989}-DialogCheckedList.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\DialogCheckedList.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\Unknown.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f4999342-9394-4aff-aa78-80e23c8e83aa}-Unknown.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\Unknown.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\AU-MA.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{61feb500-73fb-45cb-a96c-5807e647be97}-AU-MA.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\AU-MA.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\AU-PG.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c20bc275-fb37-4116-b4f0-4ae6299861af}-AU-PG.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\AU-PG.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\AU-R.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fa9d52a6-6a2a-401c-83cd-6f5b9fde7829}-AU-R.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\AU-R.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\AU-X.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9c9e08b4-3d8f-4bec-9c23-d6ba67e8c4af}-AU-X.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\AU-X.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\AU-G.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{007d9360-b327-4893-a5b6-159083c6563b}-AU-G.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\AU-G.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\AU-M.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d779acea-0be7-47e5-ba95-93cdc1add9aa}-AU-M.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\AU-M.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-Uc.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5bd6fc1b-226c-42d9-9c7c-0b909b76d335}-UK-Uc.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-Uc.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-U.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e1deb0ae-9833-49cc-ba0e-312ad2829a74}-UK-U.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-U.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-PG.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{09b1f148-5c57-4e64-b689-e25313126822}-UK-PG.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-PG.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-12A.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6c36379a-8760-4d60-ada3-421ba0ff89bb}-UK-12A.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-12A.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-12.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1a49eb33-5809-4556-a0a9-7e6a77f2a51a}-UK-12.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-12.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-15.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d2c4f042-29e0-43c6-b818-e6cd760adafb}-UK-15.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-15.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-18.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1533bb2c-889e-4f9b-bf8f-0a7f4384c21b}-UK-18.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-18.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\Certification\UK-R18.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{045d4d84-9039-4eb6-a7d5-8c74208d9bee}-UK-R18.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\Certification\UK-R18.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\AU-G.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d83e8f48-0c01-45f1-b845-b688b7801327}-AU-G.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\AU-G.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\AU-M.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{60239b5f-e87e-4c5b-98b4-cb1af7133d6c}-AU-M.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\AU-M.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\AU-MA.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{974d548a-6a8b-4d4c-a60e-f730d86ca7e4}-AU-MA.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\AU-MA.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\AU-PG.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{389f3716-c2fd-483c-8c60-135989784e28}-AU-PG.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\AU-PG.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\AU-R.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ff302ffb-20bf-488c-b38c-88e4f0634fb4}-AU-R.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\AU-R.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\AU-X.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{12817503-ca39-4e69-b247-625adf7e35e1}-AU-X.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\AU-X.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-12.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0d9e2f3f-6b9a-4184-93d3-936a60e50608}-UK-12.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-12.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-12A.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{26ce4133-d406-4f17-9d2f-47e971fc1b87}-UK-12A.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-12A.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-15.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7ff6a241-36e1-4880-bdcf-d0f07467be3f}-UK-15.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-15.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-18.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c73de13b-ee37-43b6-a274-ccefbdb1f323}-UK-18.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-18.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-PG.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f2347516-8127-495c-9424-39e6d8bc27be}-UK-PG.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-PG.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-R18.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8346363b-61c8-41da-bf0e-4d5a36b1363f}-UK-R18.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-R18.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-U.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8ab2b1fa-53aa-4e97-846e-c1023004e361}-UK-U.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-U.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\UK-Uc.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a43d0e43-4219-4f1e-97f5-d83f6688e157}-UK-Uc.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\UK-Uc.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\Unknown.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{525ef023-300a-46cd-8fb1-8c0796ef554a}-Unknown.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\Unknown.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\certification\Unrated.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ee8324cd-940a-4425-afbb-4b8f120d5d81}-Unrated.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\certification\Unrated.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Plugin">
+        <ParentGroup />
+        <DisplayName>Plugin</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Plugin</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>bin\Debug\MyMovies.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{96f4f529-693e-4564-a6fa-71593c959045}-MyMovies.dll</ZipFileName>
+              <DestinationFilename>%Plugins%\Windows\MyMovies.dll</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+    </Items>
+  </Groups>
+  <Sections>
+    <Items>
+      <SectionItem Guid="e70149a9-45a4-42df-9793-b4a7d25b2c58" Name="Welcome Screen" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>Welcome to the Extension Installer for [Name]</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Description">
+              <Value>This will install [Name] version [Version] on your computer.
+It is recommended that you close all other applications before continuing.
+Click Next to continue or Cancel to exit Setup.</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Welcome Screen</PanelName>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="c66dbdb8-0bd0-4c81-a40d-cac456fc37e6" Name="Install Section" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value />
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="2098667e-f1b0-4ba0-8ecf-48ab5f6bb8e0" Name="Setup Complete" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>The Extension Installer Wizard has successfully installed [Name].</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Show radio buttons">
+              <Value />
+              <ValueType>Bool</ValueType>
+              <Description>Use radiobutton in place of combobox</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Setup Complete</PanelName>
+        <WizardButtonsEnum>Finish</WizardButtonsEnum>
+      </SectionItem>
+    </Items>
+  </Sections>
+  <Dependencies>
+    <Items>
+      <DependencyItem>
+        <Type>MediaPortal</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MaxVersion>
+        <WarnOnly>true</WarnOnly>
+        <Message>This version of Debug MyMovies requires MediaPortal 1.2.0 Beta or higher!</Message>
+        <Name>MediaPortal</Name>
+      </DependencyItem>
+      <DependencyItem>
+        <Type>Skin</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>3</Minor>
+          <Build>0</Build>
+          <Revision>1</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>3</Minor>
+          <Build>0</Build>
+          <Revision>1</Revision>
+        </MaxVersion>
+        <WarnOnly>true</WarnOnly>
+        <Message>requires Skin version 1.3.0.1 to 1.3.0.1.</Message>
+        <Name>Skin</Name>
+      </DependencyItem>
+    </Items>
+  </Dependencies>
+  <PluginDependencies>
+    <Items>
+      <PluginDependencyItem AssemblyName="MyMovies.dll">
+        <CompatibleVersion>
+          <Items>
+            <CompatibleVersionItem>
+              <MinRequiredVersion>1.3.0</MinRequiredVersion>
+              <DesignedForVersion>1.3.0</DesignedForVersion>
+            </CompatibleVersionItem>
+          </Items>
+        </CompatibleVersion>
+        <SubSystemsUsed>
+          <Items>
+            <SubSystemItem Name="MP.Players" />
+          </Items>
+        </SubSystemsUsed>
+      </PluginDependencyItem>
+    </Items>
+  </PluginDependencies>
+  <GeneralInfo>
+    <Name>Debug MyMovies</Name>
+    <Id>18ffd9af-5759-45fc-bbee-73f8194bcaf6</Id>
+    <Author>Matty</Author>
+    <HomePage />
+    <ForumPage />
+    <UpdateUrl />
+    <Version>
+      <Major>1</Major>
+      <Minor>3</Minor>
+      <Build>2</Build>
+      <Revision>0</Revision>
+    </Version>
+    <ExtensionDescription />
+    <VersionDescription />
+    <DevelopmentStatus />
+    <OnlineLocation />
+    <ReleaseDate>2010-11-12T10:51:06.785218+11:00</ReleaseDate>
+    <Tags />
+    <Location>E:\Matt\Projects\MyMovies\MyMovies\DebugMyMovies.mpe1</Location>
+    <Params>
+      <Items>
+        <SectionParam Name="Icon">
+          <Value />
+          <ValueType>File</ValueType>
+          <Description>The icon file of the package (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Online Icon">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Configuration file">
+          <Value />
+          <ValueType>Template</ValueType>
+          <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+        </SectionParam>
+        <SectionParam Name="Online Screenshots">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>Online stored screenshot urls separated by ; </Description>
+        </SectionParam>
+        <SectionParam Name="Force to uninstall on update">
+          <Value>yes</Value>
+          <ValueType>Bool</ValueType>
+          <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+        </SectionParam>
+      </Items>
+    </Params>
+  </GeneralInfo>
+  <UniqueFileList>
+    <Items>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\MyMovies.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{06092aea-879a-400e-a865-36fd9cb6aa9f}-MyMovies.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\MyMovies.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\MyMoviesActors.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2961e6cf-71cd-4220-8099-930d4027e704}-MyMoviesActors.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\MyMoviesActors.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\MyMoviesDetails.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4f01345b-f092-4307-b325-171083a47fe0}-MyMoviesDetails.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\MyMoviesDetails.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\1.33-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b69cf965-68ae-4341-927f-41b814f84d04}-1.33-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\1.33-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\1.66-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{76c8c7ae-620b-458a-9247-b101e5e91280}-1.66-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\1.66-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\1.78-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b573ad62-5fa8-48a1-a2a0-c3a642a2b510}-1.78-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\1.78-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\1.85-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{313b83b0-930e-441f-83e6-7f0af0ace207}-1.85-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\1.85-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\2.20-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{70893b14-76ca-4bb2-a035-79ef3857cdff}-2.20-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\2.20-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\2.35-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0d956b8b-03f5-4219-901d-a731d33f2ec3}-2.35-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\2.35-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3wide\Media\2.40-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9975e7dc-3949-4a02-8086-1349913b65e1}-2.40-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3wide\Media\2.40-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\MyMovies.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{61e2188c-2ca2-4ad0-ac1b-b577af1e836e}-MyMovies.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\MyMovies.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\MyMoviesActors.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{45fdffaf-2c1e-43f3-ba1d-6cfd68f81533}-MyMoviesActors.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\MyMoviesActors.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\MyMoviesDetails.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8e68594c-9ea2-4da9-b1b1-c259bb9f102b}-MyMoviesDetails.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\MyMoviesDetails.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\1.33-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7c0722e8-e69a-4895-83d8-97067504da98}-1.33-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\1.33-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\1.66-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a900aff2-db8d-4b5f-8606-131467b8c49c}-1.66-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\1.66-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\1.78-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0b017772-4b8a-42bb-9553-283ba25a6a2e}-1.78-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\1.78-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\1.85-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4c5f759e-a7e2-4cc2-a970-f4c258b34f58}-1.85-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\1.85-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\2.20-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{63f8dac0-10d1-4c6c-9d18-9879964b87fe}-2.20-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\2.20-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\2.35-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e50885c0-02fd-45b9-8a17-dc6a001daddf}-2.35-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\2.35-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Blue3\Media\2.40-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fdf475b5-a1c2-450b-a3cc-453cb592be74}-2.40-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Blue3\Media\2.40-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\MyMovies.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{949fa203-31db-4df0-a757-09e2f441bb08}-MyMovies.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\MyMovies.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\MyMoviesActors.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{deda5a23-f125-46cf-835d-3ea7e7e3dfd3}-MyMoviesActors.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\MyMoviesActors.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\MyMoviesHiddenMenu.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{58489d93-513f-42db-9b87-f380de244c14}-MyMoviesHiddenMenu.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\MyMoviesHiddenMenu.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\hover_my movies.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{21393080-50f5-4982-9505-c15c1b25678b}-hover_my movies.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\hover_my movies.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\MyMovies.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{575e82de-0147-4898-9f05-d90386595139}-MyMovies.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\MyMovies.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\MyMoviesActors.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{24493d18-39c7-400f-809f-862f49492987}-MyMoviesActors.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\MyMoviesActors.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\MyMoviesDetails.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e9a6bb28-7d5f-45c2-8cc0-00a70a15c0fe}-MyMoviesDetails.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\MyMoviesDetails.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\1.33-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1e3e3867-b715-470a-829b-a5310c243b9f}-1.33-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\1.33-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\1.66-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{da3dd02e-f6ea-47d5-8665-55f1d4eb7c0c}-1.66-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\1.66-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\1.78-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{169a8857-25cf-4f68-9528-568b0be9df65}-1.78-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\1.78-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\1.85-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9f246f4d-886b-449b-9315-f2b981f0ae64}-1.85-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\1.85-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\2.20-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5c75d88a-c5a0-495a-be0b-0dc33aae008b}-2.20-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\2.20-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\2.35-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8fcb5975-1373-41a1-bb54-9010682cae30}-2.35-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\2.35-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\2.40-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6dd6b2e7-279f-45c4-9785-10fe4ce4b817}-2.40-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\2.40-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\DefaultWide\Media\Thumbs.db</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3b66be8c-9180-4ac3-8f92-b2352afb285d}-Thumbs.db</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\Thumbs.db</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\1.33-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7e08c2d0-a40a-46a8-9f29-87f92156a35a}-1.33-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\1.33-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\1.66-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f96b89c6-9406-4605-af61-b6a14b33bc9e}-1.66-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\1.66-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\1.78-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e0718be2-759a-4cbf-a829-2115e65b39be}-1.78-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\1.78-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\1.85-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{351b4e3b-fa47-4d1e-a32f-91fb53053654}-1.85-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\1.85-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\2.20-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b47ef197-1a3a-4c96-a59f-abe56c5863f8}-2.20-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\2.20-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\2.35-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{dca0e830-206e-40c3-a8b7-5de1e37c9da1}-2.35-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\2.35-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\2.40-1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5976ed7c-5b70-446f-b386-e530be5d08d3}-2.40-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\2.40-1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Default\Thumbs.db</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{97374ad2-1b1e-4e2f-acaf-ac03afb717b3}-Thumbs.db</ZipFileName>
+        <DestinationFilename>%Skin%\Default\Thumbs.db</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\MyMoviesViewActor.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c55069f3-f30c-4833-b1df-95ef20244f7f}-MyMoviesViewActor.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\MyMoviesViewActor.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\DialogCheckedList.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{678eb090-0c72-44fa-a4ad-d1f8d5422989}-DialogCheckedList.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\DialogCheckedList.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\Unknown.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f4999342-9394-4aff-aa78-80e23c8e83aa}-Unknown.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\Unknown.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\AU-MA.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{61feb500-73fb-45cb-a96c-5807e647be97}-AU-MA.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\AU-MA.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\AU-PG.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c20bc275-fb37-4116-b4f0-4ae6299861af}-AU-PG.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\AU-PG.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\AU-R.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fa9d52a6-6a2a-401c-83cd-6f5b9fde7829}-AU-R.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\AU-R.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\AU-X.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9c9e08b4-3d8f-4bec-9c23-d6ba67e8c4af}-AU-X.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\AU-X.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\AU-G.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{007d9360-b327-4893-a5b6-159083c6563b}-AU-G.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\AU-G.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\AU-M.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d779acea-0be7-47e5-ba95-93cdc1add9aa}-AU-M.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\AU-M.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-Uc.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5bd6fc1b-226c-42d9-9c7c-0b909b76d335}-UK-Uc.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-Uc.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-U.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e1deb0ae-9833-49cc-ba0e-312ad2829a74}-UK-U.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-U.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-PG.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{09b1f148-5c57-4e64-b689-e25313126822}-UK-PG.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-PG.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-12A.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6c36379a-8760-4d60-ada3-421ba0ff89bb}-UK-12A.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-12A.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-12.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1a49eb33-5809-4556-a0a9-7e6a77f2a51a}-UK-12.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-12.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-15.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d2c4f042-29e0-43c6-b818-e6cd760adafb}-UK-15.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-15.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-18.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1533bb2c-889e-4f9b-bf8f-0a7f4384c21b}-UK-18.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-18.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\Certification\UK-R18.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{045d4d84-9039-4eb6-a7d5-8c74208d9bee}-UK-R18.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\Certification\UK-R18.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\AU-G.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d83e8f48-0c01-45f1-b845-b688b7801327}-AU-G.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\AU-G.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\AU-M.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{60239b5f-e87e-4c5b-98b4-cb1af7133d6c}-AU-M.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\AU-M.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\AU-MA.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{974d548a-6a8b-4d4c-a60e-f730d86ca7e4}-AU-MA.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\AU-MA.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\AU-PG.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{389f3716-c2fd-483c-8c60-135989784e28}-AU-PG.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\AU-PG.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\AU-R.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ff302ffb-20bf-488c-b38c-88e4f0634fb4}-AU-R.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\AU-R.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\AU-X.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{12817503-ca39-4e69-b247-625adf7e35e1}-AU-X.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\AU-X.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-12.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0d9e2f3f-6b9a-4184-93d3-936a60e50608}-UK-12.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-12.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-12A.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{26ce4133-d406-4f17-9d2f-47e971fc1b87}-UK-12A.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-12A.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-15.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7ff6a241-36e1-4880-bdcf-d0f07467be3f}-UK-15.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-15.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-18.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c73de13b-ee37-43b6-a274-ccefbdb1f323}-UK-18.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-18.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-PG.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f2347516-8127-495c-9424-39e6d8bc27be}-UK-PG.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-PG.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-R18.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8346363b-61c8-41da-bf0e-4d5a36b1363f}-UK-R18.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-R18.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-U.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8ab2b1fa-53aa-4e97-846e-c1023004e361}-UK-U.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-U.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\UK-Uc.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a43d0e43-4219-4f1e-97f5-d83f6688e157}-UK-Uc.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\UK-Uc.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\Unknown.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{525ef023-300a-46cd-8fb1-8c0796ef554a}-Unknown.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\Unknown.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\certification\Unrated.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ee8324cd-940a-4425-afbb-4b8f120d5d81}-Unrated.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\certification\Unrated.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>bin\Debug\MyMovies.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{96f4f529-693e-4564-a6fa-71593c959045}-MyMovies.dll</ZipFileName>
+        <DestinationFilename>%Plugins%\Windows\MyMovies.dll</DestinationFilename>
+      </FileItem>
+    </Items>
+  </UniqueFileList>
+  <ProjectSettings>
+    <FolderGroups>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{796a4675-052f-43c9-a0d6-706d66f7b336}-</ZipFileName>
+        <DestinationFilename>%Skin%</DestinationFilename>
+        <Folder>skin</Folder>
+        <Group>Default</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+    </FolderGroups>
+    <ProjectFilename>Debug MyMovies.xmp2</ProjectFilename>
+    <UpdatePath1 />
+    <UpdatePath2 />
+    <UpdatePath3 />
+  </ProjectSettings>
+  <IsSkin>false</IsSkin>
+</PackageClass>

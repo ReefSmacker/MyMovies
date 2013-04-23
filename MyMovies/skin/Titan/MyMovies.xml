@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+  <id>75362</id>
+  <defaultcontrol>2</defaultcontrol>
+  <allowoverlay>yes</allowoverlay>
+  <define>#header.label:MyMovies</define>
+  <define>#useSelectedFanart:Yes</define>
+
+  <controls>
+    <!--            :: DUMMY ::            -->
+    <control>
+      <description>Selected item Label</description>
+      <type>label</type>
+      <id>7773</id>
+      <posX>-2000</posX>
+      <posY>100</posY>
+      <label>#title</label>
+      <visible>control.hastext(7773)</visible>
+    </control>
+    <!--            :: DEFAULT BACKGROUND ::            -->
+    <control>
+      <description>DEFAULT BACKGROUND</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>0</posX>
+      <posY>0</posY>
+      <width>1920</width>
+      <height>1080</height>
+      <texture>background.png</texture>
+      <shouldCache>true</shouldCache>
+    </control>
+    <import>common.fanart.selected.xml</import>
+    
+    <!--            :: IMPORT ::            -->
+    <import>myvideo.background.default.xml</import>
+    <control>
+      <id>0</id>
+      <type>image</type>
+      <posX>60</posX>
+      <posY>34</posY>
+      <width>68</width>
+      <height>60</height>
+      <texture>icon_movies.png</texture>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <!--            :: FILTER ::            -->
+    <control>
+      <description>Show the current filters in place</description>
+      <type>fadelabel</type>
+      <label>#currentfilter</label>
+      <id>0</id>
+      <posX>1430</posX>
+      <posY>998</posY>
+      <width>400</width>
+      <!--<align>right</align> This does not work. Bug fix expected in 1.4-->
+      <font>TitanLight12</font>
+      <textcolor>000000</textcolor>
+      <visible>[facadeview.list | facadeview.smallicons | facadeview.largeicons|facadeview.playlist] + control.isvisible(50)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <import>common.time.xml</import>
+    <import>MyMoviesHiddenMenu.xml</import>
+    <import>myvideo.views.default.xml</import>
+    <import>myvideo.watchedCount.xml</import>
+    <import>common.facade.video.default.xml</import>
+    <import>myvideo.mediainfo.xml</import>
+    <import>common.overlay.xml</import>
+  </controls>
+
+
+</window>

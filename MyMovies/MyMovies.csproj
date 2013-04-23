@@ -1,0 +1,209 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78A59C05-C5F9-43C7-88C2-11B9CE3452B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyMovies</RootNamespace>
+    <AssemblyName>MyMovies</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Utils, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Team MediaPortal\MediaPortal\Common.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Core, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Team MediaPortal\MediaPortal\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Dialogs, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Team MediaPortal\MediaPortal\plugins\Windows\Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utils, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Team MediaPortal\MediaPortal\Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Certification.cs" />
+    <Compile Include="Configuration\Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuration\Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\MacAddress.cs" />
+    <Compile Include="Configuration\RemoteServer.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DialogCheckedList.cs" />
+    <Compile Include="DriveReplacement.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="GUIListItemActor.cs" />
+    <Compile Include="GUIListItemMovie.cs" />
+    <Compile Include="GUIWindowIDs.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="MyMoviesActors.cs" />
+    <Compile Include="MyMoviesDB.cs" />
+    <Compile Include="MyMoviesDVDHandler.cs" />
+    <Compile Include="MyMoviesPlugin.cs" />
+    <Compile Include="Pair.cs" />
+    <Compile Include="QueryReader.cs" />
+    <Compile Include="QueryValue.cs" />
+    <Compile Include="SelectBuilder.cs" />
+    <Compile Include="Set.cs" />
+    <Compile Include="Sorting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sql.cs" />
+    <Compile Include="Standby.cs" />
+    <Compile Include="StringEnum.cs" />
+    <Compile Include="QueryUpdate.cs" />
+    <Compile Include="Users.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="skin\DefaultWide\MyMovies.xml" />
+    <Content Include="skin\DefaultWide\MyMoviesActors.xml" />
+    <Content Include="skin\DefaultWide\MyMoviesDetails.xml" />
+    <Content Include="skin\DefaultWide\Media\1.33-1.png" />
+    <Content Include="skin\DefaultWide\Media\1.66-1.png" />
+    <Content Include="skin\DefaultWide\Media\1.78-1.png" />
+    <Content Include="skin\DefaultWide\Media\1.85-1.png" />
+    <Content Include="skin\DefaultWide\Media\2.20-1.png" />
+    <Content Include="skin\DefaultWide\Media\2.35-1.png" />
+    <Content Include="skin\DefaultWide\Media\2.40-1.png" />
+    <Content Include="skin\Default\Media\1.33-1.png" />
+    <Content Include="skin\Default\Media\1.66-1.png" />
+    <Content Include="skin\Default\Media\1.78-1.png" />
+    <Content Include="skin\Default\Media\1.85-1.png" />
+    <Content Include="skin\Default\Media\2.20-1.png" />
+    <Content Include="skin\Default\Media\2.35-1.png" />
+    <Content Include="skin\Default\Media\2.40-1.png" />
+    <Content Include="skin\Default\MyMovies.xml" />
+    <Content Include="skin\Default\MyMoviesActors.xml" />
+    <Content Include="skin\Default\MyMoviesDetails.xml" />
+    <Content Include="skin\Titan\DialogCheckedList.xml" />
+    <Content Include="skin\Titan\Media\certification\AU-G.png" />
+    <Content Include="skin\Titan\Media\certification\AU-M.png" />
+    <Content Include="skin\Titan\Media\certification\AU-MA.png" />
+    <Content Include="skin\Titan\Media\certification\AU-PG.png" />
+    <Content Include="skin\Titan\Media\certification\AU-R.png" />
+    <Content Include="skin\Titan\Media\certification\AU-X.png" />
+    <Content Include="skin\Titan\Media\certification\UK-12.png" />
+    <Content Include="skin\Titan\Media\certification\UK-12A.png" />
+    <Content Include="skin\Titan\Media\certification\UK-15.png" />
+    <Content Include="skin\Titan\Media\certification\UK-18.png" />
+    <Content Include="skin\Titan\Media\certification\UK-PG.png" />
+    <Content Include="skin\Titan\Media\certification\UK-R18.png" />
+    <Content Include="skin\Titan\Media\certification\UK-U.png" />
+    <Content Include="skin\Titan\Media\certification\UK-Uc.png" />
+    <Content Include="skin\Titan\Media\certification\Unknown.png" />
+    <Content Include="skin\Titan\Media\certification\Unrated.png" />
+    <Content Include="skin\Titan\Media\hover_my movies.png" />
+    <Content Include="skin\Titan\MyMovies.xml" />
+    <Content Include="skin\Titan\MyMoviesActors.xml" />
+    <Content Include="skin\Titan\MyMoviesHiddenMenu.xml" />
+    <Content Include="skin\Titan\MyMoviesViewActor.xml" />
+    <Content Include="strings_en.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\Configuration.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "C:\Program Files (x86)\Team MediaPortal\MediaPortal\plugins\Windows\."
+copy "$(ProjectDir)skin\Titan\*.xml" "C:\ProgramData\Team MediaPortal\MediaPortal\skin\Titan\."
+copy "$(ProjectDir)skin\Titan\Media\*" "C:\ProgramData\Team MediaPortal\MediaPortal\skin\Titan\Media\."
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>
