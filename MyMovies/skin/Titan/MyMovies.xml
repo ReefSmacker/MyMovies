@@ -30,7 +30,39 @@
       <shouldCache>true</shouldCache>
     </control>
     <import>common.fanart.selected.xml</import>
-    
+
+    <!--            :: FILTER ::            -->
+    <control>
+      <description>background listview</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>8</posX>
+      <posY>237</posY>
+      <width>1907</width>
+      <height>520</height>
+      <texture>filter_background.png</texture>
+      <visible>[facadeview.list | facadeview.smallicons | facadeview.largeicons|facadeview.playlist] + control.isvisible(50)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+    <control>
+      <description>Show the current filters in place</description>
+      <type>fadelabel</type>
+      <label>#currentfilter</label>
+      <id>0</id>
+      <posX>100</posX>
+      <posY>248</posY>
+      <width>1700</width>
+      <!--Need to leave space for the page numbers-->
+      <!--<align>right</align> This does not work. Bug fix expected in 1.4-->
+      <font>TitanLight12</font>
+      <textcolor>000000</textcolor>
+      <visible>[facadeview.list | facadeview.smallicons | facadeview.largeicons|facadeview.playlist] + control.isvisible(50)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+
     <!--            :: IMPORT ::            -->
     <import>myvideo.background.default.xml</import>
     <control>
@@ -41,23 +73,6 @@
       <width>68</width>
       <height>60</height>
       <texture>icon_movies.png</texture>
-      <animation effect="fade" time="250">WindowOpen</animation>
-      <animation effect="fade" time="250">WindowClose</animation>
-    </control>
-
-    <!--            :: FILTER ::            -->
-    <control>
-      <description>Show the current filters in place</description>
-      <type>fadelabel</type>
-      <label>#currentfilter</label>
-      <id>0</id>
-      <posX>1430</posX>
-      <posY>998</posY>
-      <width>400</width>
-      <!--<align>right</align> This does not work. Bug fix expected in 1.4-->
-      <font>TitanLight12</font>
-      <textcolor>000000</textcolor>
-      <visible>[facadeview.list | facadeview.smallicons | facadeview.largeicons|facadeview.playlist] + control.isvisible(50)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>

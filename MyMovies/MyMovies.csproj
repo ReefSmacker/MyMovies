@@ -127,6 +127,7 @@
     <Content Include="skin\Titan\Media\certification\UK-Uc.png" />
     <Content Include="skin\Titan\Media\certification\Unknown.png" />
     <Content Include="skin\Titan\Media\certification\Unrated.png" />
+    <Content Include="skin\Titan\Media\filter_background.png" />
     <Content Include="skin\Titan\Media\hover_my movies.png" />
     <Content Include="skin\Titan\MyMovies.xml" />
     <Content Include="skin\Titan\MyMoviesActors.xml" />

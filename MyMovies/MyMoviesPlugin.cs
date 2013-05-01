@@ -104,6 +104,7 @@ namespace MyMovies
         LayoutOptions           _currentLayout      = LayoutOptions.List;
         bool                    _sortAscending      = false;
         int                     _selectedUser       = 0;
+        string                  _currentModule;
         Users                   _availableUsers;
         int                     _maxViewableRating  = 4;        // What the user will actually see.
         int                     _maxConfiguredRating;           // What has been configured as the "normal" setting
@@ -221,7 +222,7 @@ namespace MyMovies
                 if (_currentSorting == Sorting.Options.LastPlayed)
                 {
                     select.Joins.Add("tblResume r ON t.intId = r.intId", SelectBuilderJoins.Types.LEFT);
-                    select.Where.Add(string.Concat("r.intUserId = ", _selectedUser));
+                    select.Where.Add(string.Concat("r.intUserId = ", CurrentUser));
                 }
 
                 select.Order.Add(SqlSorting);
@@ -465,8 +466,7 @@ namespace MyMovies
                         PlayListItem currentItem = _playlistPlayer.GetCurrentItem();
                         if (currentItem != null)
                         {
-                            MoviesDB.SetMovieStopTimeAndResumeData(NowPlaying.ItemId, _selectedUser, timeMovieStopped, resumeData, currentItem.Description);
-                            //MoviesDB.SetMovieStopTimeAndResumeData(Movies.NowPlaying.ItemId, timeMovieStopped, resumeData, (string.IsNullOrEmpty(Movies.NowPlaying.MountedFileName)) ? filename : Movies.NowPlaying.MountedFileName);
+                            MoviesDB.SetMovieStopTimeAndResumeData(NowPlaying.ItemId, CurrentUser, timeMovieStopped, resumeData, currentItem.Description);
                         }
                     }
                 }
@@ -488,7 +488,7 @@ namespace MyMovies
                 if (!PlayMovieFromPlayList(_playlistPlayer.GetPlaylist(PlayListType.PLAYLIST_VIDEO_TEMP), nextItem))
                 {
                     // Set resumedata to zero
-                    MoviesDB.SetMovieStopTimeAndResumeData(NowPlaying.ItemId, _selectedUser, 0, new byte[0], string.Empty);
+                    MoviesDB.SetMovieStopTimeAndResumeData(NowPlaying.ItemId, CurrentUser, 0, new byte[0], string.Empty);
 
                     // Set movie as watched.
                     MoviesDB.SetMovieWatched(NowPlaying.ItemId, true);
@@ -538,7 +538,7 @@ namespace MyMovies
                 xmlwriter.SetValue("MyMovies", "view", (int)_currentView);
                 xmlwriter.SetValue("MyMovies", "sorting", (int)_currentSorting);
                 xmlwriter.SetValueAsBool("MyMovies", "sortDirection", _sortAscending);
-                xmlwriter.SetValue("MyMovies", "currentUser", _selectedUser);
+                xmlwriter.SetValue("MyMovies", "currentUser", CurrentUser);
             }
             btnSortBy.SortChanged -= new SortEventHandler(SortChanged);
 
@@ -566,7 +566,7 @@ namespace MyMovies
                     _currentLayout      = (LayoutOptions)xmlreader.GetValueAsInt("MyMovies", "layout", (int)LayoutOptions.List);
                     _currentView        = (Views)xmlreader.GetValueAsInt("MyMovies", "view", (int)_currentView);
                     _currentSorting     = (Sorting.Options)xmlreader.GetValueAsInt("MyMovies", "sorting", (int)_currentSorting);
-                    _selectedUser       = xmlreader.GetValueAsInt("MyMovies", "currentUser", _selectedUser);
+                    CurrentUser         = xmlreader.GetValueAsInt("MyMovies", "currentUser", CurrentUser);
                     _sortAscending      = xmlreader.GetValueAsBool("MyMovies", "sortDirection", _sortAscending);
                     _programDataPath    = xmlreader.GetValueAsString("MyMovies", "txtProgramDataPath", @"C:\ProgramData\My Movies\FileStorage");
                     _serverName         = xmlreader.GetValueAsString("MyMovies", "txtServerName", "localhost");
@@ -1148,15 +1148,15 @@ namespace MyMovies
                     }
 
                     // set the focus to currently selected user
-                    dlg.SelectedLabel = _selectedUser;
+                    dlg.SelectedLabel = CurrentUser;
 
                     // show dialog and wait for result
                     dlg.DoModal(GetID);
                     if (dlg.SelectedId != -1)
                     {
-                        if (dlg.SelectedLabel != _selectedUser)
+                        if (dlg.SelectedLabel != CurrentUser)
                         {
-                            _selectedUser = dlg.SelectedLabel;
+                            CurrentUser = dlg.SelectedLabel;
 
                             // Only reload if the changed user selection changes the available options.
                             if ((Actor == 0) && (_currentSorting == Sorting.Options.LastPlayed))
@@ -1609,7 +1609,7 @@ namespace MyMovies
             {
                 string fileDescription;
                 byte[] resumeData = null;
-                int watchedTime = MoviesDB.GetMovieStopTimeAndResumeData(itemId, _selectedUser, out fileDescription, out resumeData);
+                int watchedTime = MoviesDB.GetMovieStopTimeAndResumeData(itemId, CurrentUser, out fileDescription, out resumeData);
                 if (watchedTime > runtime)
                 {
                     watchedTime = runtime;
@@ -1753,9 +1753,35 @@ namespace MyMovies
         /// </summary>
         private string CurrentModule
         {
+            get 
+            {
+                return _currentModule;
+            }
             set
             {
-                GUIPropertyManager.SetProperty("#currentmodule", string.Format("MyMovies: {0}", value));
+                _currentModule = value;
+                GUIPropertyManager.SetProperty("#currentmodule", string.Format("{0}: {1}", User, value));
+            }
+        }
+
+        private int CurrentUser
+        {
+            get
+            {
+                return _selectedUser;
+            }
+            set
+            {
+                _selectedUser = value;
+                GUIPropertyManager.SetProperty("#currentmodule", string.Format("{0}: {1}", User, _currentModule));                
+            }
+        }
+
+        private string User
+        {
+            get
+            {
+                return _availableUsers == null || _availableUsers.Collection.Count == 0 ? "MyMovies" : _availableUsers.Collection[CurrentUser];                
             }
         }
 
@@ -1863,7 +1889,7 @@ namespace MyMovies
             byte[] resumeData = null;
             int playListItem = -1;
             PlayList playList = _playlistPlayer.GetPlaylist(PlayListType.PLAYLIST_VIDEO_TEMP);
-            int timeMovieStopped = MoviesDB.GetMovieStopTimeAndResumeData(NowPlaying.ItemId, _selectedUser, out fileDescription, out resumeData);
+            int timeMovieStopped = MoviesDB.GetMovieStopTimeAndResumeData(NowPlaying.ItemId, CurrentUser, out fileDescription, out resumeData);
 
             // There is nothing valid to play.
             if (playList.Count.Equals(0))

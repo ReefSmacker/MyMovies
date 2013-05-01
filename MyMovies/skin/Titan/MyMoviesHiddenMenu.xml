@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <window>
   <controls>
-
     <control>
       <animation effect="slide" start="-60,0" end="0,0" tween="quadratic" easing="in" time="250" delay="400">WindowOpen</animation>
       <animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="250" delay="100">WindowClose</animation>
@@ -28,7 +27,7 @@
     <control>
       <type>actiongroup</type>
       <description>action menu</description>
-      <defaultcontrol>2</defaultcontrol>
+      <defaultcontrol>5</defaultcontrol>
       <onexit>50</onexit>
       <dimColor>00ffffff</dimColor>
       <buttonX>-460</buttonX>

@@ -276,6 +276,13 @@
               <ZipFileName>Installer{CopyFile}\{62df67a6-0be6-447a-abf3-076232c16e3c}-Unrated.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Media\Certification\Unrated.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>skin\Titan\Media\filter_background.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6c102df3-5549-41cd-8a67-92d6906ce98e}-filter_background.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Media\filter_background.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -473,7 +480,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
     <Version>
       <Major>1</Major>
       <Minor>3</Minor>
-      <Build>2</Build>
+      <Build>3</Build>
       <Revision>0</Revision>
     </Version>
     <ExtensionDescription>Provides access to Brian Binnerups MyMovies database (version 4) from within MediaPortal</ExtensionDescription>
@@ -784,6 +791,13 @@ mymovies
         <LocalFileName>skin\Titan\Media\Certification\Unrated.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{62df67a6-0be6-447a-abf3-076232c16e3c}-Unrated.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Media\Certification\Unrated.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>skin\Titan\Media\filter_background.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6c102df3-5549-41cd-8a67-92d6906ce98e}-filter_background.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Media\filter_background.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
         <Param1 />
