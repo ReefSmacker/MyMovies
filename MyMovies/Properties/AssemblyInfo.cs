@@ -14,7 +14,7 @@ using MediaPortal.Common.Utils;
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("ReefSmacker")]
 [assembly: AssemblyCulture("En")]
-[assembly: CompatibleVersion("1.3.0")]
+[assembly: CompatibleVersion("1.5.0")]
 [assembly: UsesSubsystem("MP.Players")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -34,5 +34,5 @@ using MediaPortal.Common.Utils;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("1.3.3.0")]
-[assembly: AssemblyFileVersion("1.3.3.0")]
+[assembly: AssemblyVersion("1.5.1.0")]
+[assembly: AssemblyFileVersion("1.5.1.0")]
